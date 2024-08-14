@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(244, 144, 177);
+}
+
+h2{
+  background-color: rgb(241, 241, 35);
+  width: 100vh;
+  height: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#addBook{
+  width: 100px;
+  height: 65px;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(241, 241, 35);
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  transition: transform 0.3ease, background-color 0.3ease;
+}
+
+.log-in-main {
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.log-in-button:hover {
+  transform: scale(1.1);
+  background-color: beige;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+}
+
+.addBook {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+  margin: 20px;
+  color: rgb(241, 241, 35);
+  cursor: pointer;
+}
+
+.addBook:hover{
+    transition: transform 0.3ease, background-color 0.3ease;
+    transform: scale(1.1);
+}

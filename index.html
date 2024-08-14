@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h2>library by Maryashka</h2>
+        <button id="addBook">add book</button>
+    </header>
+
+    <main>
+        <div id="books"></div>
+    </main>
+
+    <div id="main-container" class="main-container" </div>
+        <div id="modal" class="modal">
+            <div class="block">
+                <span class="close-button">&times;</span>
+                <h4>Внесите данные</h4>
+
+                <form id="addBookForm">
+                    <label for="bookName">
+                        <p>Название</p>
+                    </label>
+                    <input type="text" id="bookName" name="name" required>
+
+                    <label for="Author">
+                        <p>Автор</p>
+                    </label>
+                    <input type="text" id="Author" name="author" required>
+
+                    <label for="Pages">
+                        <p>Количество страниц</p>
+                    </label>
+                    <input type="text" id="Pages" name="name" required>
+                    <button type="submit">Добавить</button>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
